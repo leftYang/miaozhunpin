@@ -1,0 +1,740 @@
+.bg_blue {
+  background: #edf9fb; }
+
+.red {
+  color: #f36948 !important; }
+
+.blue {
+  color: #07b3cc !important; }
+
+.logo_bg, .login .logo_bg {
+  width: 100%;
+  height: 160px;
+  line-height: 226px;
+  text-align: center;
+  background: url("../images/login_bg.png") no-repeat center/cover; }
+  .logo_bg img.logo {
+    width: 82px;
+    height: 70px; }
+
+.header {
+  position: relative;
+  overflow: hidden; }
+  .header .back {
+    position: absolute;
+    width: 40px;
+    height: 52px;
+    line-height: 52px;
+    top: 0;
+    left: 0;
+    text-align: center; }
+    .header .back img {
+      display: block;
+      width: 13px;
+      height: 22px;
+      margin: 14px auto; }
+  .header .title {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+    background: #07b3cc; }
+
+.register .phone_number {
+  position: relative;
+  width: 80%;
+  height: 40px;
+  margin: 12px auto 0;
+  line-height: 40px; }
+  .register .phone_number input {
+    width: 100%;
+    height: 40px;
+    background: url("../images/user.png") no-repeat #f6f6f6;
+    background-position: 10px 10px;
+    background-size: 20px 20px;
+    text-indent: 60px;
+    border-radius: 2px;
+    overflow: hidden; }
+.register .validated_code {
+  position: relative;
+  width: 80%;
+  height: 40px;
+  margin: 12px auto 0;
+  line-height: 40px; }
+  .register .validated_code .inCode {
+    width: 60%;
+    height: 40px;
+    margin-right: 5%;
+    text-align: center;
+    background: #f6f6f6; }
+  .register .validated_code .btn_code {
+    width: 35%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #07b3cc; }
+.register .password {
+  position: relative;
+  width: 80%;
+  height: 40px;
+  margin: 12px auto 0;
+  line-height: 40px; }
+  .register .password input {
+    width: 100%;
+    height: 40px;
+    background: url("../images/password.png") no-repeat #f6f6f6;
+    background-position: 10px 10px;
+    background-size: 18px 21px;
+    text-indent: 60px;
+    border-radius: 2px;
+    overflow: hidden; }
+.register .btn {
+  width: 80%;
+  height: 40px;
+  margin: 28px auto 20px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  background: #07b3cc;
+  border-radius: 40px; }
+.register .has_user {
+  width: 80%;
+  height: 40px;
+  margin: 12px auto 0;
+  font-size: 0.9rem;
+  line-height: 40px; }
+  .register .has_user span a {
+    color: #f36948; }
+
+.register_second {
+  width: 80%;
+  margin: 0 auto; }
+  .register_second .job_hope {
+    height: 24px;
+    margin: 12px auto 0; }
+    .register_second .job_hope .job_type {
+      height: 24px;
+      margin-left: 20px;
+      padding: 0 20px;
+      line-height: 24px;
+      border: 1px solid #eee;
+      border-radius: 20px;
+      background: #fff; }
+    .register_second .job_hope .job_type.current {
+      border: 1px solid #07b3cc;
+      background: #07b3cc;
+      color: #fff; }
+  .register_second .user_name, .register_second .address_hope {
+    position: relative;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    border-bottom: 1px solid #07b3cc; }
+    .register_second .user_name label, .register_second .address_hope label {
+      width: 64px;
+      margin-right: 5%; }
+    .register_second .user_name input, .register_second .address_hope input {
+      width: 60%;
+      line-height: 38px; }
+  .register_second .address_hope label {
+    width: 64px;
+    margin-right: 5%; }
+  .register_second .address_hope div {
+    width: 60%;
+    height: 38px;
+    overflow: hidden; }
+    .register_second .address_hope div select {
+      width: 110%;
+      height: 38px; }
+  .register_second .btn {
+    width: 100%;
+    height: 40px;
+    margin: 28px auto 20px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #07b3cc;
+    border-radius: 40px; }
+  .register_second .has_user {
+    width: 100%;
+    height: 40px;
+    margin: 12px auto 0;
+    font-size: 0.9rem;
+    line-height: 40px; }
+    .register_second .has_user span a {
+      color: #f36948; }
+
+.login {
+  background: url("../images/login_bgImg.png") no-repeat center/cover; }
+  .login .logo_bg {
+    background: none; }
+  .login .login_userName {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin: 12px auto 0;
+    line-height: 40px; }
+    .login .login_userName input {
+      width: 100%;
+      height: 40px;
+      background: url("../images/login_user.png") no-repeat;
+      background-position: 10px 10px;
+      background-size: 20px 20px;
+      color: #fff;
+      text-indent: 60px;
+      border-bottom: 1px solid #fff;
+      border-radius: 2px;
+      overflow: hidden; }
+  .login .login_password {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin: 12px auto 0;
+    line-height: 40px; }
+    .login .login_password input {
+      width: 100%;
+      height: 40px;
+      background: url("../images/login_password.png") no-repeat;
+      background-position: 10px 10px;
+      background-size: 18px 21px;
+      color: #fff;
+      text-indent: 60px;
+      border-bottom: 1px solid #fff;
+      border-radius: 2px;
+      overflow: hidden; }
+  .login .btn {
+    width: 80%;
+    height: 40px;
+    margin: 28px auto 20px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #07b3cc;
+    border: 1px solid #fff;
+    border-radius: 40px; }
+  .login .login_other {
+    width: 80%;
+    height: 40px;
+    margin: 12px auto 0;
+    line-height: 40px; }
+    .login .login_other .forget_psd {
+      font-size: 0.9rem;
+      text-decoration: underline;
+      color: #fff; }
+    .login .login_other .fast_rgs {
+      height: 24px;
+      line-height: 24px;
+      margin-top: 4px;
+      padding: 0 10px;
+      font-size: 0.9rem;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.5);
+      color: #f36948; }
+
+.job_filter_parent {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  z-index: 10; }
+
+.job_filter {
+  width: 80%;
+  padding: 0 10%;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  border-bottom: 1px solid #f6f6f6;
+  background: #fff; }
+  .job_filter .down {
+    background: url("../images/down.png") no-repeat right center/14px 9px; }
+  .job_filter .job_filter_type {
+    position: relative;
+    width: 30%;
+    text-align: center; }
+  .job_filter .job_filter_pay {
+    position: relative;
+    width: 40%;
+    text-align: center; }
+  .job_filter .job_filter_vocation {
+    position: relative;
+    width: 30%;
+    text-align: center; }
+
+.job_info, .company_details .job_info {
+  width: 90%;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 5%;
+  background: #fff; }
+  .job_info p, .company_details .job_info p {
+    width: 32%;
+    font-size: 0.85rem;
+    overflow: hidden; }
+  .job_info .job_pay {
+    text-align: left;
+    text-indent: 0; }
+    .job_info .job_pay span {
+      height: 26px;
+      margin-top: 7px;
+      padding: 0 5px;
+      text-align: center;
+      border: 1px solid #f36948;
+      border-radius: 3px;
+      color: #f36948; }
+  .job_info .job_address {
+    width: 36%;
+    text-indent: 20px;
+    background: url("../images/job_address.png") no-repeat left center;
+    background-size: 14px; }
+  .job_info .job_vocation {
+    text-align: right; }
+    .job_info .job_vocation span {
+      display: inline-block;
+      text-indent: 18px;
+      background: url("../images/job_vocation.png") no-repeat left center;
+      background-size: 14px; }
+
+.job_select {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 51px;
+  left: 0;
+  background: #fff;
+  z-index: 10; }
+  .job_select li {
+    width: 80%;
+    height: 34px;
+    margin: 8px auto;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 34px; }
+    .job_select li:hover {
+      background: #07b3cc;
+      border: 1px solid #07b3cc;
+      color: #fff; }
+  .job_select li.current {
+    background: #07b3cc;
+    border: 1px solid #07b3cc;
+    color: #fff; }
+
+.bg_layer {
+  display: none;
+  position: absolute;
+  top: 103px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); }
+
+.job_list {
+  background: #edf9fb; }
+  .job_list .every_job {
+    margin-top: 10px;
+    box-shadow: 0 1px 1px #ddd; }
+    .job_list .every_job .job_title {
+      width: 90%;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 5%;
+      border-bottom: 1px solid #eee;
+      background: #fff; }
+      .job_list .every_job .job_title h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #07b3cc; }
+      .job_list .every_job .job_title span {
+        color: #555;
+        font-size: 0.86rem; }
+  .job_list .job_null {
+    width: 70%;
+    line-height: 30px;
+    margin: 20% auto 0;
+    color: #666;
+    text-align: center; }
+
+.company_name, .company_details .company_weal, .company_details .company_address, .job_details .company_address {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5%;
+  font-size: 0.9rem;
+  color: #505050;
+  background: #f9f9f9; }
+  .company_name .apply_time, .company_details .company_weal .apply_time, .company_details .company_address .apply_time, .job_details .company_address .apply_time {
+    text-indent: 20px;
+    background: url("../images/apply_time.png") no-repeat left center;
+    background-size: 15px 15px; }
+
+.company_details .company_title {
+  width: 90%;
+  padding: 0 5%;
+  line-height: 46px;
+  font-size: 1.1rem;
+  color: #333;
+  border-bottom: 1px solid #f5f5f5;
+  background: #fff; }
+.company_details .job_info .job_vocation {
+  text-align: center; }
+.company_details .job_info .job_needPeople {
+  text-align: right; }
+  .company_details .job_info .job_needPeople .needPeople {
+    color: #f36948; }
+.company_details .company_weal {
+  height: auto;
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+  background: #fff; }
+  .company_details .company_weal span {
+    height: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-right: 6px;
+    padding: 0 5px;
+    text-align: center;
+    border: 1px solid #f36948;
+    border-radius: 6px;
+    color: #707070; }
+.company_details .company_address {
+  border-bottom: 1px solid #eee;
+  font-size: 0.8rem;
+  overflow: hidden; }
+.company_details .all_title, .company_details .company_intro h3 {
+  width: 90%;
+  margin-top: 10px;
+  padding: 13px 5% 0;
+  height: 33px;
+  background: #fff; }
+  .company_details .all_title span, .company_details .company_intro h3 span {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    text-indent: 10px;
+    border-left: 4px solid #07b3cc; }
+.company_details .company_intro {
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 16px;
+  border-top: 1px solid #eee;
+  background: #fff; }
+  .company_details .company_intro h3 span {
+    width: 100%;
+    line-height: 20px; }
+  .company_details .company_intro .company_details_parent {
+    height: 100px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee; }
+    .company_details .company_intro .company_details_parent p {
+      width: 90%;
+      height: 80px;
+      margin: 0 5%;
+      padding-bottom: 10px;
+      line-height: 22px;
+      font-size: 0.85rem;
+      color: #333;
+      overflow: hidden; }
+  .company_details .company_intro .company_intro_btn {
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -26px;
+    background: url("../images/company_intro.png") no-repeat #fff center;
+    background-size: 18px 14px; }
+.company_details .every_job {
+  margin-top: 10px;
+  box-shadow: 0 1px 1px #ddd; }
+  .company_details .every_job .job_title {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #f9f9f9; }
+    .company_details .every_job .job_title h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #07b3cc; }
+    .company_details .every_job .job_title span {
+      color: #555;
+      font-size: 0.86rem; }
+    .company_details .every_job .job_title .job_info {
+      background: #f9f9f9 !important; }
+      .company_details .every_job .job_title .job_info .job_vocation {
+        text-align: right !important; }
+
+.job_details {
+  padding-bottom: 60px; }
+  .job_details .company_title {
+    width: 90%;
+    padding: 0 5%;
+    line-height: 46px;
+    border-bottom: 1px solid #eee; }
+    .job_details .company_title p {
+      font-size: 1.2rem;
+      color: #333; }
+    .job_details .company_title span {
+      font-size: 1.1rem;
+      font-weight: 200;
+      color: #f36948; }
+  .job_details .job_info .job_year {
+    width: 33%;
+    display: inline-block;
+    text-indent: 22px;
+    background: url("../images/briefcase.png") no-repeat left center;
+    background-size: 18px 17px; }
+  .job_details .job_info .job_edu {
+    width: 34%;
+    text-indent: 23px;
+    background: url("../images/edu.png") no-repeat left center;
+    background-size: 19px 18px; }
+  .job_details .job_info .job_people {
+    width: 33%;
+    text-align: right; }
+    .job_details .job_info .job_people span {
+      display: inline-block;
+      text-indent: 22px;
+      background: url("../images/number.png") no-repeat left center;
+      background-size: 15px; }
+  .job_details .company_address {
+    font-size: 0.84rem;
+    background: #fff;
+    overflow: hidden; }
+  .job_details .job_weal {
+    width: 90%;
+    padding: 0 5%;
+    background: #f9f9f9; }
+    .job_details .job_weal span {
+      width: auto;
+      font-size: 0.9rem;
+      color: #505050; }
+  .job_details .company_info {
+    width: 88%;
+    margin-top: 10px;
+    padding: 12px 6% 3px;
+    background: #fff; }
+    .job_details .company_info h3 {
+      line-height: 26px;
+      color: #07b3cc; }
+    .job_details .company_info .job_address {
+      width: 36%;
+      line-height: 40px;
+      font-size: 0.85rem;
+      background: url("../images/job_address.png") no-repeat left center;
+      background-size: 14px;
+      text-indent: 18px; }
+    .job_details .company_info .job_vocation {
+      line-height: 40px;
+      font-size: 0.85rem;
+      text-indent: 18px;
+      background: url("../images/job_vocation.png") no-repeat left center;
+      background-size: 14px; }
+  .job_details .job_duty, .job_details .job_need {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px 5% 0;
+    background: #fff; }
+    .job_details .job_duty h3, .job_details .job_need h3 {
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #eee;
+      background: url("../images/calendar.png") no-repeat left center;
+      background-size: 18px;
+      text-indent: 26px; }
+    .job_details .job_duty .duty_one, .job_details .job_need .duty_one {
+      padding: 10px 0; }
+      .job_details .job_duty .duty_one p, .job_details .job_need .duty_one p {
+        line-height: 26px;
+        font-size: 0.85rem;
+        color: #252525; }
+  .job_details .job_need {
+    margin-top: 0; }
+    .job_details .job_need h3 {
+      background: url("../images/list.png") no-repeat left center;
+      background-size: 18px; }
+  .job_details .job_promotion {
+    width: 90%;
+    margin-top: 10px;
+    padding: 0 5% 10px;
+    background: #fff; }
+    .job_details .job_promotion h3 {
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #eee;
+      background: url("../images/enlarge.png") no-repeat left center;
+      background-size: 18px;
+      text-indent: 26px; }
+    .job_details .job_promotion .job_level p {
+      height: 40px;
+      margin-top: 10px;
+      line-height: 40px;
+      color: #455558;
+      text-align: center;
+      background: #f9f9f9;
+      box-shadow: 1px 1px 1px #eee; }
+  .job_details .job_referrals {
+    margin-top: 10px;
+    padding: 0 0 10px;
+    border-top: 1px solid #eee;
+    background: #fff; }
+    .job_details .job_referrals .every_job {
+      width: 100%;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      background: #f9f9f9; }
+      .job_details .job_referrals .every_job .job_title {
+        border-bottom: 1px solid #eee; }
+        .job_details .job_referrals .every_job .job_title h3 {
+          width: 90%;
+          height: 36px;
+          line-height: 36px;
+          padding: 0 5%;
+          color: #07b3cc; }
+      .job_details .job_referrals .every_job .job_info {
+        width: 90%;
+        padding: 0 5%;
+        background: #f9f9f9; }
+    .job_details .job_referrals .every_job:nth-child(0) {
+      margin-top: 0; }
+    .job_details .job_referrals .company_address {
+      width: 90%;
+      padding: 0 5%;
+      height: 40px;
+      line-height: 20px;
+      background: #f9f9f9; }
+  .job_details .job_referrals > h3 {
+    width: 90%;
+    margin: 0 5%;
+    height: 40px;
+    line-height: 40px;
+    background: url("../images/enlarge.png") no-repeat left center;
+    background-size: 18px;
+    text-indent: 26px; }
+  .job_details .job_more {
+    width: 100%;
+    height: 30px;
+    margin: 12px 0;
+    line-height: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #07b3cc;
+    text-align: center;
+    background: #f9f9f9;
+    box-shadow: 1px 1px 1px #eee; }
+
+.alert_reminder {
+  display: none;
+  position: fixed;
+  width: 80%;
+  top: 54%;
+  left: 10%;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background: rgba(7, 179, 204, 0.8);
+  border-radius: 3px; }
+
+.my_apply {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); }
+  .my_apply .btn {
+    width: 90%;
+    margin: 8px auto 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    background: #07b3cc;
+    border-radius: 40px; }
+
+.select_time {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 182px;
+  bottom: -182px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10; }
+  .select_time h3 {
+    height: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #07b3cc;
+    text-align: center;
+    border-top: 1px solid #07b3cc;
+    background: #e7e7e7; }
+  .select_time li {
+    width: 80%;
+    height: 34px;
+    margin: 8px auto;
+    line-height: 34px;
+    color: #07b3cc;
+    text-align: center;
+    border: 1px solid #868686;
+    border-radius: 34px; }
+    .select_time li:hover {
+      background: #07b3cc;
+      border: 1px solid #07b3cc;
+      color: #fff; }
+  .select_time li.current {
+    background: #07b3cc;
+    border: 1px solid #07b3cc;
+    color: #fff; }
+
+.my_handle {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); }
+  .my_handle div {
+    width: 90%;
+    margin: 8px auto 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2rem; }
+    .my_handle div button {
+      width: 50%;
+      color: #000;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #07b3cc;
+      font-size: 1rem; }
+    .my_handle div button.current {
+      color: #fff;
+      background: #07b3cc; }
+    .my_handle div .btn_left {
+      height: 38px;
+      color: #000;
+      border-bottom-left-radius: 38px;
+      border-top-left-radius: 38px; }
+    .my_handle div .btn_right {
+      height: 38px;
+      border-bottom-right-radius: 38px;
+      border-top-right-radius: 38px; }
+
+#nametishi, #yzmtishi, #pwdtishi, #username_tishi, #username, #password {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  font-size: 0.8rem;
+  color: #f36948; }
+
+#yzmtishi {
+  right: 40%; }
+
+/*# sourceMappingURL=main.css.map */
